@@ -1,0 +1,19 @@
+INSERT INTO Doctors (DoctorId, DoctorFName, DoctorLName, Specialization, Phone, Email) VALUES
+('D001', 'Liam', 'Smith', 'Cardiologist', '123-456-7890', 'Liam.smith@gmail.com');
+('D002', 'Emily', 'Cooper', 'Pediatrician', '234-567-8901', 'emily.Cooper@gmail.com');
+('D003', 'Michael', 'Davis', 'Orthopedic Surgeon', '345-678-9012', 'michael.davis@gmail.com');
+('D004', 'Jessica', 'Lee', 'Dermatologist', '456-789-0123', 'Jessica.lee@gmail.com');
+('D005', 'Daniel', 'Brown', 'Neurologist', '567-890-1234', 'Daniel.brown@gmail.com');
+('D006', 'Amanda', 'White', 'Gynecologist', '678-901-2345', 'amanda.white@gmail.com');
+('D007', 'Christopher', 'Hall', 'Oncologist', '789-012-3456', 'christopher.hall@gmail.com');
+('D008', 'Sophia', 'Clark', 'Psychiatrist', '890-123-4567', 'Sophia.clark@gmail.com');
+('D009', 'Daniel', 'Baker', 'Urologist', '901-234-5678', 'daniel.baker@gmail.com');
+('D010', 'Wilson', 'Turner', 'Endocrinologist', '012-345-6789', 'Wilson.turner@gmail.com');
+('D011', 'Matthew', 'Lopez', 'Rheumatologist', '135-246-3579', 'matthew.lopez@gmail.com');
+('D012', 'Sophia', 'Hill', 'Dentist', '246-357-4680', 'sophia.hill@gmail.com');
+('D013', 'Ethan', 'Cooper', 'Gastroenterologist', '357-468-5791', 'ethan.cooper@gmail.com');
+('D014', 'Amelia', 'Ward', 'Pulmonologist', '468-579-6802', 'Amelia.ward@gmail.com');
+('D015', 'Zoe','Parker', 'Dermatopathologist', '579-680-7913', 'Zoe.parker@gmail.com');
+
+
+

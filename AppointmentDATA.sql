@@ -1,0 +1,47 @@
+INSERT INTO Appointment (AppointmentId, PatientId, DoctorId, AppointmentDate, Notes) VALUES
+('A001', 'P001', 'D001', '2023-12-01', 'Prescribed beta blockers and advised regular exercise for hypertension management'),
+('A002', 'P003', 'D002', '2023-12-02', 'Prescribed antibiotics and recommended ear drops for ear infection treatment'),
+('A003', 'P005', 'D003', '2023-12-03', 'Prescribed NSAIDs and recommended weight loss for osteoarthritis management'),
+('A004', 'P007', 'D004', '2023-12-04', 'Prescribed topical retinoids and recommended gentle cleansing for acne vulgaris'),
+('A005', 'P009', 'D005', '2023-11-05', 'Prescribed triptans and advised trigger avoidance for migraine management'),
+('A006', 'P011', 'D006', '2023-11-06', 'Prescribed hormonal therapy and recommended lifestyle changes for menstrual disorders'),
+('A007', 'P013', 'D007', '2023-11-07', 'Prescribed chemotherapy and scheduled radiation therapy sessions for breast cancer treatment'),
+('A008', 'P015', 'D008', '2023-11-08', 'Prescribed SSRIs and referred for cognitive behavioral therapy for depression'),
+('A009', 'P017', 'D009', '2023-12-09', 'Prescribed androgen deprivation therapy and scheduled regular PSA tests for prostate cancer'),
+('A010', 'P019', 'D010', '2023-11-10', 'Prescribed oral antidiabetic medications and advised carbohydrate counting for diabetes management'),
+('A011', 'P021', 'D011', '2023-11-11', 'Prescribed DMARDs and recommended joint protection exercises for rheumatoid arthritis'),
+('A012', 'P023', 'D012', '2023-11-12', 'Filled cavities and provided oral hygiene instructions for tooth decay prevention'),
+('A013', 'P025', 'D013', '2023-11-13', 'Prescribed proton pump inhibitors and recommended avoidance of spicy foods for gastric ulcer'),
+('A014', 'P027', 'D014', '2023-11-14', 'Prescribed inhaler and recommended peak flow monitoring for asthma control'),
+('A015', 'P029', 'D015', '2023-12-15', 'Performed wide excision surgery and referred for lymph node biopsy for melanoma treatment'),
+('A016', 'P031', 'D001', '2023-11-16', 'Administered antiarrhythmic medications and recommended heart rate monitoring for atrial fibrillation'),
+('A017', 'P033', 'D002', '2023-11-17', 'Prescribed antihistamines and advised allergen avoidance for allergy management in children'),
+('A018', 'P035', 'D003', '2023-11-18', 'Performed laminectomy surgery and prescribed physical therapy for spinal stenosis'),
+('A019', 'P037', 'D004', '2023-12-19', 'Prescribed corticosteroid creams and advised moisturizing routines for eczema'),
+('A020', 'P039', 'D005', '2023-11-20', 'Prescribed antiepileptic drugs and recommended regular sleep patterns for epilepsy control'),
+('A021', 'P041', 'D006', '2023-11-21', 'Prescribed pain relievers and advised watchful waiting for small ovarian cysts'),
+('A022', 'P043', 'D007', '2023-11-22', 'Prescribed targeted therapy drugs and advised pulmonary rehabilitation for lung cancer'),
+('A023', 'P045', 'D008', '2023-11-23', 'Prescribed benzodiazepines and recommended exposure therapy for anxiety disorders'),
+('A024', 'P047', 'D009', '2023-11-24', 'Prescribed alpha blockers and recommended increased fluid intake for kidney stone passage'),
+('A025', 'P049', 'D010', '2023-11-25', 'Prescribed levothyroxine and recommended iodine-rich diet for thyroid disorders'),
+('A026', 'P051', 'D011', '2023-11-26', 'Prescribed immunosuppressive drugs and advised sun protection for lupus management'),
+('A027', 'P053', 'D012', '2023-11-27', 'Performed deep cleaning and prescribed antibacterial mouthwash for gingivitis treatment'),
+('A028', 'P055', 'D013', '2023-11-28', 'Prescribed antispasmodic medications and recommended fiber supplements for IBS management'),
+('A029', 'P057', 'D014', '2023-11-29', 'Prescribed bronchodilators and advised pulmonary rehabilitation for COPD'),
+('A030', 'P059', 'D015', '2023-11-30', 'Performed Mohs surgery and recommended regular skin checks for basal cell carcinoma'),
+('A031', 'P061', 'D001', '2023-12-01', 'Performed angioplasty and stent placement, prescribed statins for coronary artery disease'),
+('A032', 'P063', 'D002', '2023-12-02', 'Developed personalized diet and exercise plans for childhood obesity management'),
+('A033', 'P065', 'D003', '2023-12-03', 'Performed arthroscopic repair and recommended shoulder strengthening exercises for rotator cuff tear'),
+('A034', 'P067', 'D004', '2023-12-04', 'Administered phototherapy sessions and prescribed vitamin D analogs for psoriasis treatment'),
+('A035', 'P069', 'D005', '2023-12-05', 'Prescribed disease-modifying therapies and recommended physical therapy for multiple sclerosis'),
+('A036', 'P071', 'D006', '2023-12-06', 'Performed laparoscopic surgery and prescribed hormonal therapy for endometriosis treatment'),
+('A037', 'P073', 'D007', '2023-12-07', 'Performed surgical resection and prescribed adjuvant chemotherapy for colon cancer'),
+('A038', 'P075', 'D008', '2023-12-08', 'Prescribed mood stabilizers and scheduled regular counseling sessions for bipolar disorder'),
+('A039', 'P077', 'D009', '2023-12-09', 'Prescribed antibiotics and advised urinary hygiene for UTI treatment'),
+('A040', 'P079', 'D010', '2023-12-10', 'Prescribed hormonal contraceptives and advised weight loss for PCOS management');
+
+select * from appointment;
+
+ALTER TABLE APPOINTMENT
+MODIFY COLUMN NOTES VARCHAR(200);
+
